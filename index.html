@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAF-IAST — Dummy Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="progress" id="progress"></div>
+
+  <!-- Ambient blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">
+        <img src="assets/logo.png" alt="PAF-IAST Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">PAF-IAST</span>
+          <span class="brand-sub">Dummy Website</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-btn" id="navBtn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#faculties">Faculties</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#news">News & Events</a></li>
+          <li><a href="#contact" class="pill">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Mobile overlay -->
+    <div class="overlay" id="overlay" aria-hidden="true">
+      <div class="overlay-card">
+        <div class="overlay-head">
+          <span class="overlay-title">Menu</span>
+          <button class="x" id="closeOverlay" aria-label="Close menu">✕</button>
+        </div>
+        <a href="#about" class="overlay-link">About</a>
+        <a href="#faculties" class="overlay-link">Faculties</a>
+        <a href="#admissions" class="overlay-link">Admissions</a>
+        <a href="#news" class="overlay-link">News & Events</a>
+        <a href="#contact" class="overlay-link strong">Contact</a>
+
+        <p class="overlay-note">
+          Replace content/images from official website + Facebook page (as teacher required).
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-media" style="background-image:url('assets/hero.jpg')"></div>
+    <div class="container hero-inner">
+      <div class="hero-left reveal">
+        <div class="chip-row">
+          <span class="chip">Skilling Pakistan</span>
+          <span class="chip">Applied Sciences</span>
+          <span class="chip">Industry-Ready</span>
+        </div>
+
+        <h1 class="hero-title">
+          Pak-Austria Fachhochschule:
+          <span class="glow">Institute of Applied Sciences & Technology</span>
+        </h1>
+
+        <p class="hero-lead">
+          This is a dummy one-page website for Web Engineering assignment.
+          Paste the official intro text from PAF-IAST here (from the official website).
+        </p>
+
+        <div class="hero-actions">
+          <a href="#admissions" class="btn primary">Explore Admissions</a>
+          <a href="#about" class="btn ghost">About PAF-IAST</a>
+        </div>
+
+        <!-- Quick facts (edit values from official sources) -->
+        <div class="quick-facts">
+          <div class="q-card">
+            <div class="q-top"><span class="q-dot"></span><span class="q-dot"></span><span class="q-dot"></span></div>
+            <div class="q-main">
+              <h3>4206</h3>
+              <p>Students</p>
+            </div>
+          </div>
+          <div class="q-card">
+            <div class="q-top"><span class="q-dot"></span><span class="q-dot"></span><span class="q-dot"></span></div>
+            <div class="q-main">
+              <h3>70</h3>
+              <p>PhD Faculty</p>
+            </div>
+          </div>
+          <div class="q-card">
+            <div class="q-top"><span class="q-dot"></span><span class="q-dot"></span><span class="q-dot"></span></div>
+            <div class="q-main">
+              <h3>484</h3>
+              <p>Alumni</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="hero-card">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Modern labs and applied learning</li>
+            <li>International collaboration (add official text)</li>
+            <li>Industry projects & skills focus</li>
+            <li>Scholarships & student support</li>
+          </ul>
+
+          <div class="hero-mini">
+            <div class="mini">
+              <span class="mini-k">Campus</span>
+              <span class="mini-v">Haripur</span>
+            </div>
+            <div class="mini">
+              <span class="mini-k">Programs</span>
+              <span class="mini-v">BS / MS</span>
+            </div>
+          </div>
+
+          <a class="btn primary full" href="#contact">Contact Admissions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about">
+    <div class="container grid">
+      <div class="reveal">
+        <h2 class="title">About PAF-IAST</h2>
+        <p class="muted">
+          Paste the official “About” content here from PAF-IAST website. Keep it real and accurate.
+          Mention mission, applied sciences, skills development, and collaboration (as on official site).
+        </p>
+
+        <div class="feature-list">
+          <div class="f-item">
+            <span class="f-icon">✦</span>
+            <div>
+              <h4>Applied Learning</h4>
+              <p class="muted">Hands-on labs, practical projects, and real-world skills.</p>
+            </div>
+          </div>
+
+          <div class="f-item">
+            <span class="f-icon">⚡</span>
+            <div>
+              <h4>Career Focus</h4>
+              <p class="muted">Industry-ready training, internships, and professional development.</p>
+            </div>
+          </div>
+
+          <div class="f-item">
+            <span class="f-icon">☍</span>
+            <div>
+              <h4>Research & Innovation</h4>
+              <p class="muted">Modern research facilities and innovation culture.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="gallery">
+          <img src="assets/campus1.jpg" alt="PAF-IAST Campus View" />
+          <img src="assets/campus2.jpg" alt="PAF-IAST Building" />
+        </div>
+
+        <div class="info-strip">
+          <div class="info">
+            <span class="k">Focus</span>
+            <span class="v">Skills + Tech</span>
+          </div>
+          <div class="info">
+            <span class="k">Learning</span>
+            <span class="v">Practical</span>
+          </div>
+          <div class="info">
+            <span class="k">Support</span>
+            <span class="v">Student-First</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Faculties (Accordion) ===== -->
+  <section class="section alt" id="faculties">
+    <div class="container reveal">
+      <h2 class="title">Faculties (Accordion)</h2>
+      <p class="muted">Click to expand. Replace details with official text from PAF-IAST pages.</p>
+
+      <div class="accordion" id="accordion">
+        <div class="acc">
+          <button class="acc-head" type="button">
+            <span>FCAAD — Faculty of Computing, AI & Allied Disciplines</span>
+            <span class="acc-plus">+</span>
+          </button>
+          <div class="acc-body">
+            <p class="muted">Programs: (add official list). Labs: AI, Software, Data/Networks (add official content).</p>
+          </div>
+        </div>
+
+        <div class="acc">
+          <button class="acc-head" type="button">
+            <span>FEST — Faculty of Engineering Sciences & Technology</span>
+            <span class="acc-plus">+</span>
+          </button>
+          <div class="acc-body">
+            <p class="muted">Programs: (add official list). Facilities: workshops, labs, projects (add official content).</p>
+          </div>
+        </div>
+
+        <div class="acc">
+          <button class="acc-head" type="button">
+            <span>FLS — Faculty of Life Sciences</span>
+            <span class="acc-plus">+</span>
+          </button>
+          <div class="acc-body">
+            <p class="muted">Programs: (add official list). Focus: biotech, health, research (add official content).</p>
+          </div>
+        </div>
+
+        <div class="acc">
+          <button class="acc-head" type="button">
+            <span>FMS2 — Faculty of Management Sciences & Social Sciences</span>
+            <span class="acc-plus">+</span>
+          </button>
+          <div class="acc-body">
+            <p class="muted">Programs: (add official list). Focus: business, leadership, entrepreneurship (add official content).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Admissions ===== -->
+  <section class="section" id="admissions">
+    <div class="container reveal">
+      <h2 class="title">Admissions</h2>
+      <p class="muted">
+        Paste the official admissions intro from PAF-IAST site (deadlines, eligibility, and how to apply).
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Undergraduate</h3>
+          <ul>
+            <li>Eligibility: Intermediate / A-Levels</li>
+            <li>Merit / entry test policy (official)</li>
+            <li>Required documents</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Graduate</h3>
+          <ul>
+            <li>Eligibility: BS/BE</li>
+            <li>Interview / test (if required)</li>
+            <li>Research options</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>How to Apply</h3>
+          <ol>
+            <li>Fill online form</li>
+            <li>Upload documents</li>
+            <li>Fee / challan submission</li>
+          </ol>
+          <a href="#contact" class="btn ghost full">Ask Admissions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== News & Events ===== -->
+  <section class="section alt" id="news">
+    <div class="container reveal">
+      <h2 class="title">News & Events</h2>
+      <p class="muted">
+        Add 3–6 real items from official News page + Facebook posts (teacher requirement).
+      </p>
+
+      <div class="news">
+        <article class="n-card">
+          <div class="n-top">
+            <span class="tag">Event</span>
+            <span class="date">DD MMM YYYY</span>
+          </div>
+          <h3>Teaching & Learning Workshop</h3>
+          <p class="muted">Short summary (copy from official/Facebook post).</p>
+        </article>
+
+        <article class="n-card">
+          <div class="n-top">
+            <span class="tag">Seminar</span>
+            <span class="date">DD MMM YYYY</span>
+          </div>
+          <h3>Intellectual Property Rights</h3>
+          <p class="muted">Short summary (copy from official/Facebook post).</p>
+        </article>
+
+        <article class="n-card">
+          <div class="n-top">
+            <span class="tag">Announcement</span>
+            <span class="date">DD MMM YYYY</span>
+          </div>
+          <h3>Admissions / Intake Update</h3>
+          <p class="muted">Short summary (copy from official/Facebook post).</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact + Form ===== -->
+  <section class="section" id="contact">
+    <div class="container grid">
+      <div class="reveal">
+        <h2 class="title">Contact</h2>
+        <p class="muted">
+          Put official address + email + phone here. This form sends an email using EmailJS.
+        </p>
+
+        <div class="contact-box">
+          <div class="c-row"><span class="c-k">Address</span><span class="c-v">PAF-IAST, Haripur, KP</span></div>
+          <div class="c-row"><span class="c-k">Phone</span><span class="c-v">(+92) XXX-XXXXXXX</span></div>
+          <div class="c-row"><span class="c-k">Email</span><span class="c-v">info@paf-iast.edu.pk</span></div>
+          <div class="c-row"><span class="c-k">Facebook</span><span class="c-v">facebook.com/…</span></div>
+        </div>
+
+        <p class="muted" style="margin-top:12px;">
+          Hotlines (optional): add 3–5 important hotlines from official contact page.
+        </p>
+      </div>
+
+      <div class="reveal">
+        <div class="form-wrap">
+          <h3>Send a Message</h3>
+
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label>Full Name</label>
+              <input id="name" type="text" placeholder="Your name" />
+              <small class="err" id="nameErr"></small>
+            </div>
+
+            <div class="field">
+              <label>Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+              <small class="err" id="emailErr"></small>
+            </div>
+
+            <div class="field">
+              <label>Phone (optional)</label>
+              <input id="phone" type="text" placeholder="03xx-xxxxxxx" />
+              <small class="err" id="phoneErr"></small>
+            </div>
+
+            <div class="field">
+              <label>Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+              <small class="err" id="messageErr"></small>
+            </div>
+<p id="formStatus" class="status" aria-live="polite"></p>
+            <button class="btn primary full" id="sendBtn" type="submit">Send Email</button>
+          
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to top -->
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <footer class="footer">
+    <div class="container foot">
+      <p>© <span id="year"></span> PAF-IAST (Dummy). All rights reserved.</p>
+      <div class="foot-links">
+        <a href="#about">About</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
